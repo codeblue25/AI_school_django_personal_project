@@ -1,0 +1,13 @@
+.header_logo {
+    margin: 2rem 0;
+    font-family: 'Lobster', cursive;
+}
+.header_btn {
+    margin-bottom: 2rem;
+}
+.footer_btn {
+    margin-top: 2rem;
+}
+.footer_logo {
+    margin: 1.5rem 0; font-family: 'Lobster', cursive;
+}
