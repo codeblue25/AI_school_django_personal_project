@@ -3,11 +3,12 @@
     <div style = "margin: 2rem; text-align: center">
         <h1>METHOD</h1>
 
-        <form action="/accounts/hello_world" method="post">
+        <form action="/accounts/hello_world/" method="post">
             {% csrf_token %}
-            <input type="submit" class="px-5 btn btn-primary" style="border-radius: 5rem;"/>
+            <input type="text" name="hello_world_input" placeholder="What is your name?" />
+            <input type="submit" class="px-5 btn btn-primary" style="border-radius: 5rem;" />
         </form>
 
-        <h3>{{ text }}</h3>
+        <h3>{{ hello_world_output.text }}</h3>
     </div>
 {% endblock %}
