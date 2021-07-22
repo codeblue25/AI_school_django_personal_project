@@ -1,5 +1,5 @@
 
 
-url_pattern = [
+urlpatterns = [
 
 ]
