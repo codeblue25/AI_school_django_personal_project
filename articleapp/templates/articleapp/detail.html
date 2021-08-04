@@ -4,16 +4,17 @@
 
     <div class="container text-center">
     <div class="container">
+    
+        {# 제목 / 글쓴이 / 날짜 #}
         <div class="my-5">
-            {# 제목 / 글쓴이 / 날짜 #}
             <h1>{{ target_article.title}}</h1>
             <h4>{{ target_article.writer.profile.nickname }}</h4>
             <p>{{ target_article.created_at }}</p>
         </div>
         <hr/>
 
-        <div>
-            {# 게시글 이미지 / 내용 #}
+        {# 게시글 이미지 / 내용 #}
+        <div class="my-5">
             <img src="{{ target_article.image.url }}"
                  alt=""
                  class="article_image">
