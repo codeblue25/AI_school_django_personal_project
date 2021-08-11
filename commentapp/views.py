@@ -32,7 +32,7 @@ class CommentCreateView(CreateView):
 class CommentDeleteView(DeleteView):
     model = Comment
     context_object_name = 'target_comment'
-    template_name = 'commentapp.delete.html'
+    template_name = 'commentapp/delete.html'    # 템플릿 안나온다고 하는 오류
 
     def get_success_url(self):
         return reverse('articleapp:detail', kwargs={'pk': self.object.article.pk})
