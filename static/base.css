@@ -72,3 +72,7 @@ a:hover {
         font-size: 13px;
     }
 }
+
+.header_btn > span > a:hover {
+    font-weight: bold;
+}
