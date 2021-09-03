@@ -3,21 +3,6 @@
 
 {% block content %}
     <style>
-
-        .container {
-            padding: 0;
-            margin: 0 auto;
-        }
-        .container div {
-          width: 45%;
-          max-width: 200px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border-radius: 1rem; /*1rem = 16px*/
-          flex-direction: column;
-          box-shadow: 0 0 1rem darkgray;
-        }
         div img{
             width: 100%;
             border-radius: 1rem;
@@ -26,7 +11,7 @@
 
     <div class="container my-3">
     {% for article in article_list %}
-        <div>
+        <div class="gradient-border" id="box">
             <a href="{% url 'articleapp:detail' pk=article.pk %}">
                 <img src="{{ article.image.url }}" alt="">
             </a>
