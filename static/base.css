@@ -22,7 +22,7 @@ a:hover {
     background: linear-gradient(40deg, #ffd86f,#fc6262) !important;
     -webkit-background-clip: text !important;
     color: transparent;
-    transform: scale(1.3) skew(-10deg);
+    transform: scale(1.3);
 }
 
 .header_btn {
