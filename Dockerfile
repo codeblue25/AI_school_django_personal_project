@@ -2,7 +2,7 @@ FROM python:3.9.0
 
 WORKDIR /home/
 
-RUN echo 'sdgzfdv'
+RUN echo 'sdgdfzfdv'
 
 RUN git clone -b master https://github.com/codeblue25/AI_school_django_personal_project.git
 
